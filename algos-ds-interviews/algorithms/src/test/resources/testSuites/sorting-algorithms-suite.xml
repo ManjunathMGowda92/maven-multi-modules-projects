@@ -4,6 +4,8 @@
 	<test name="Integer Sorting Algorithms" parallel="classes" thread-count="5">
 		<classes>
 			<class name="org.manjunath.algorithms.sorting.TestIntegerQuickSort"/>
+			<class name="org.manjunath.algorithms.sorting.TestCharacterQuickSort"/>
+			<class name="org.manjunath.algorithms.sorting.TestStringQuickSort"/>
 		</classes>
 	</test>
 </suite>
