@@ -3,7 +3,7 @@
 <suite name="Sorting Alogorithms Suite">
 	<test name="Integer Sorting Algorithms" parallel="classes" thread-count="5">
 		<classes>
-			<class name="org.manjunath.datastructures.TestIntegerQuickSort"/>
+			<class name="org.manjunath.algorithms.sorting.TestIntegerQuickSort"/>
 		</classes>
 	</test>
 </suite>
