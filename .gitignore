@@ -34,3 +34,6 @@ target/*
 
 **/.settings/*
 **/.recommenders
+
+#ignore the test-output folder
+**/test-output/
