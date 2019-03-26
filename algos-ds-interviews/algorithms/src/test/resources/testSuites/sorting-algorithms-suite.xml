@@ -6,6 +6,8 @@
 			<class name="org.manjunath.algorithms.sorting.TestIntegerQuickSort"/>
 			<class name="org.manjunath.algorithms.sorting.TestCharacterQuickSort"/>
 			<class name="org.manjunath.algorithms.sorting.TestStringQuickSort"/>
+			<class name="org.manjunath.algorithms.sorting.TestStringQuickSortBasedOnLengthAndCharacters"/>
+			<class name="org.manjunath.algorithms.sorting.TestStringQuickSortOnLength"/>
 		</classes>
 	</test>
 </suite>
