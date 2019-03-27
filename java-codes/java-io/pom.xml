@@ -3,7 +3,7 @@
   <parent>
     <groupId>org.manjunath</groupId>
     <artifactId>java-codes</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>1.1.0.1-SNAPSHOT</version>
   </parent>
   <artifactId>java-io</artifactId>
 </project>
