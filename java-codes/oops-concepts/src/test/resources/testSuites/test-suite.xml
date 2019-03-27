@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Object Concepts Test Suite">
+	<test name="Test suite -1" thread-count="5" parallel="classes">
+		<classes>
+			<class name="org.manjunath.objectconcepts.TestSimpleHashCodeAndEqualsOverride"/>
+		</classes>
+	</test>
+</suite>
