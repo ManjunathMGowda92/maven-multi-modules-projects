@@ -4,7 +4,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>org.manjunath</groupId>
 	<artifactId>java-codes</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>1.1.0.1-SNAPSHOT</version>
 	<packaging>pom</packaging>
 	<name>java-codes</name>
 	<description>java-related-practice-codes</description>
@@ -121,5 +121,6 @@
 		<module>java-serialization</module>
 		<module>java-multi-threading</module>
 		<module>poi-module</module>
+		<module>java-codes-test-documentation</module>
 	</modules>
 </project>

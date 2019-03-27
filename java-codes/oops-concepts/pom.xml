@@ -3,14 +3,14 @@
   <parent>
     <groupId>org.manjunath</groupId>
     <artifactId>java-codes</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>1.1.0.1-SNAPSHOT</version>
   </parent>
   <artifactId>oops-concepts</artifactId>
   
   <dependencies>
   	<dependency>
   		<groupId>org.manjunath</groupId>
-  		<artifactId>test-documentation</artifactId>
+  		<artifactId>java-codes-test-documentation</artifactId>
   		<version>${project.parent.version}</version>
   	</dependency>
   </dependencies>
