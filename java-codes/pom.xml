@@ -23,7 +23,6 @@
 			<version>6.11</version>
 			<scope>test</scope>
 		</dependency>
-
 	</dependencies>
 
 	<build>
@@ -110,6 +109,7 @@
 		</plugins>
 	</build>
 	<modules>
+		<module>java-codes-test-documentation</module>
 		<module>java-strings</module>
 		<module>java-reflections</module>
 		<module>java-collections</module>
@@ -121,6 +121,5 @@
 		<module>java-serialization</module>
 		<module>java-multi-threading</module>
 		<module>poi-module</module>
-		<module>java-codes-test-documentation</module>
 	</modules>
 </project>
