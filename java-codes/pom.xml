@@ -121,5 +121,6 @@
 		<module>java-serialization</module>
 		<module>java-multi-threading</module>
 		<module>poi-module</module>
+		<module>http-services</module>
 	</modules>
 </project>
