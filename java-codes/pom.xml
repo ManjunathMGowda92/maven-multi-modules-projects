@@ -122,5 +122,6 @@
 		<module>java-multi-threading</module>
 		<module>poi-module</module>
 		<module>http-services</module>
+		<module>java-custom-annotations</module>
 	</modules>
 </project>
