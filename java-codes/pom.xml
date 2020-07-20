@@ -60,7 +60,7 @@
 						</configuration>
 					</execution>
 
-					<execution>
+					<!-- <execution>
 						<phase>initialize</phase>
 						<goals>
 							<goal>install-file</goal>
@@ -73,7 +73,7 @@
 							<packaging>jar</packaging>
 							<file>${basedir}/project-jars/xml/xalan-7.4.0.jar</file>
 						</configuration>
-					</execution>
+					</execution> -->
 
 					<execution>
 						<phase>initialize</phase>
@@ -123,5 +123,6 @@
 		<module>poi-module</module>
 		<module>http-services</module>
 		<module>java-custom-annotations</module>
+		<module>java-numbers</module>
 	</modules>
 </project>
