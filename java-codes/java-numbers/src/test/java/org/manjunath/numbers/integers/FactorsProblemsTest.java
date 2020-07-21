@@ -55,5 +55,27 @@ public class FactorsProblemsTest {
 		Reporter.log("FactorsProblemsTest: Start of test_getAllFactors_for_prime() method", true);
 		factors.getAllFactors(-2);
 	}
+	
+	@Test(testName = "test_sumOfFactors_1", alwaysRun = true)
+	public void test_sumOfFactors_1() {
+		Reporter.log("FactorsProblemsTest: Start of test_sumOfFactors_1() method", true);
+		int actualSum = factors.sumOfFactors(9);
+		assertEquals(actualSum, 13);
+		Reporter.log("FactorsProblemsTest: End of test_sumOfFactors_1() method", true);
+	}
+	
+	@Test(testName = "test_sumOfFactors_2", alwaysRun = true)
+	public void test_sumOfFactors_2() {
+		Reporter.log("FactorsProblemsTest: Start of test_sumOfFactors_2() method", true);
+		int actualSum = factors.sumOfFactors(156);
+		assertEquals(actualSum, 392);
+		Reporter.log("FactorsProblemsTest: End of test_sumOfFactors_2() method", true);
+	}
+	
+	@Test(testName = "test_sumOfFactors_for_negativeInteger", alwaysRun = true, expectedExceptions = RuntimeException.class)
+	public void test_sumOfFactors_for_negativeInteger() {
+		Reporter.log("FactorsProblemsTest: Start of test_sumOfFactors_for_negativeInteger() method", true);
+		factors.sumOfFactors(-156);
+	}
 
 }
