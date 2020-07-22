@@ -124,5 +124,6 @@
 		<module>http-services</module>
 		<module>java-custom-annotations</module>
 		<module>java-numbers</module>
+		<module>java-arrays</module>
 	</modules>
 </project>
